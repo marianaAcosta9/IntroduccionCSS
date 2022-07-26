@@ -52,3 +52,86 @@ p {color: fuchsia; background-color: indigo;}
     border-radius: 20px;
     background-color: mediumseagreen;
 }
+
+
+.cajaflotante {
+    margin: 40px 30px 0px 30px;
+    background-color: blanchedalmond;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: brown;
+    border-radius: 5px;
+    border-top: dashed 0px;
+
+}
+
+.contenido {
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    color: cadetblue;
+
+}
+
+.cabecera {
+    padding: 10px;
+    border-bottom: solid 1px rgb(176, 105, 147); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(212, 125, 212);
+}
+
+.footer {
+    padding: 10px;
+    border-top: solid 1px rgb(182, 112, 37);
+
+}
+
+.primario {
+    background-color: rgb(77, 155, 95); /*Darle color al fondo del botón*/
+    border: 0px; /*Quitar el borde del botón*/
+    padding: 5px; /*Dar espacio al contenido del botón*/
+    color: bisque; /*Color al texto del botón*/
+    border-radius: 3px; /*Redondear el botón*/
+    margin: 3px; /*Esto es para poner espacio fuera del botón*/
+
+}
+
+.secundario {
+    background-color: rgb(204, 98, 79);
+    border: 0px;
+    padding: 5px;
+    color: bisque;
+    border-radius: 3px;
+}
+
+.facebook {
+    margin: 20px;
+    padding: 15px;
+    background-color: #2176f2;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #f0f2f5;
+    border-radius: 10px;
+}
+
+.instagram {
+    margin: 20px;
+    padding: 15px;
+    background-color: #9247b7;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #f0f2f5;
+    border-radius: 10px;
+}
+
+.tiktok {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ee2a50;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #f0f2f5;
+    border-radius: 10px;
+}
+
