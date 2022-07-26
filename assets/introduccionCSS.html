@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes CSS</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!--Podemos agregar estilos de 3 formas:
+    
+   1. Externa con la etiqueta <link> (buena practica de programacion)
+        <link rel="stylesheet" href="assets/css/style.css">
+
+    2.  Interna directamente en el atributo de la etiqueta
+        <p style="font-size: medium; color: blueviolet;">
+
+    3. Interna dentro de la etiqueta <style>
+        <style> p { color: brown;} </style>
+    -->
+
+</head>
+<body>
+
+<p style="font-size: medium; color:blueviolet">Este es un parrafo para probar diferentes estilos mala practica 1</p>
+
+<!--A continuacion hay una etiqueta style que cambia el estilo de todos los parrafos, siempre y cuando no tenga el parrafo un comando style dentro de su misma etiqueta-->
+
+<style> 
+    p{color: aquamarine;}
+</style>
+
+<p>Este es un parrafo para probar diferentes estilos mala practica 2</p>
+
+<p>Este es un parrafo para probar diferentes estilos buena practica</p>
+
+<h3>Este es el salon de clases de la Cohorte 15</h3>
+
+<br>
+
+<!--Se debe especificar el id o la clase para poder seleccionar especificamente eso en CSS] como manera de identificacion-->
+
+<span id="Jaciel"; class="Cohorte15">Jaciel</span>
+<br>
+<span id="Maryana"; class="Cohorte15">Maryana</span>
+<br>
+<span id="Paulina"; class="Cohorte15">Paulina</span>
+<br>
+<span id="Vanessa"; class="Cohorte15">Vanessa</span>
+<br>
+<span id="Ulises"; class="Cohorte15">Ulises</span>
+
+
+<br>
+<br>
+<br>
+
+<div class="caja">
+
+    Hola, soy un div, sirvo para mostrar el modelo de cajas
+
+</div>
+
+    
+</body>
+</html>
